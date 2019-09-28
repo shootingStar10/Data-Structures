@@ -1,0 +1,17 @@
+Principle: Last In First Out (LIFO) or First In Last Out (FILO)
+
+Operations: push(key), pop(), top(), isEmpty()
+
+Time Complexity: O(1) for each operation
+
+Applications of Stack:
+
+1.) Balancing of symbols
+
+2.) Conversion from Infix to Prefix/Postfix
+
+3.) Undo-Redo feature
+
+4.) Forward-Backward feature in web browser
+
+5.) Graph algorithms like DFS, topological sorting
