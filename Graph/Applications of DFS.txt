@@ -1,0 +1,13 @@
+1.) Topological sorting
+
+2.) Check if a graph is bipertite or not
+
+3.) Path finding between two vertices
+
+4.) For an unweighted graph, DFS traversal of the graph produces the minimum spanning tree and all pair shortest path tree.
+
+5.) Detecting cycle in a graph
+
+6.) Solving the puzzles which has only one solution
+
+7.) Finding strongly connected componets in the graph
