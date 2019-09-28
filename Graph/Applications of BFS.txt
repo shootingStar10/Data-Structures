@@ -1,0 +1,19 @@
+1.) Shortest path & minimum spanning tree for unweighted graph
+
+2.) Peer to peer networks implementations ie. Bit torent to find all neighbour nodes
+
+3.) Crawlers in search engine
+
+4.) Social networking sites
+
+5.) GPS
+
+6.) Broadcasting the networks
+
+7.) In garbage collection
+
+8.) Cycle detection in undirected graph
+
+9.) Check if a graph is bipertite
+
+10.) Path finding
