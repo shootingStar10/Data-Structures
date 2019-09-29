@@ -1,0 +1,22 @@
+Double ended queue is a generalized queue data structure which allows insertion & deletion from both ends.
+
+Operations:
+
+1.) insertFront()
+2.) insertLast()
+3.) deleteFront()
+4.) deleteLast()
+
+5.) getFront()
+6.) getRear()
+7.) isFull()
+8.) isEmpty()
+
+Time Complexity: O(1) for each operation
+
+Applications of deque
+
+Since Deque supports both stack and queue operations, it can be used as both.
+The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
+Also, the problems where elements need to be removed and or added both ends can be efficiently solved using Deque.
+For example see Maximum of all subarrays of size k problem., 0-1 BFS and Find the first circular tour that visits all petrol pumps. 
