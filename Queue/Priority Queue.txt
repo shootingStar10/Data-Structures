@@ -1,0 +1,42 @@
+Priority Queue is an extension of queue with following properties.
+
+1.) Every item has a priority associated with it.
+2.) An element with high priority is dequeued before an element with low priority.
+3.) If two elements have the same priority, they are served according to their order in the queue.
+
+Operations: insert(key, priority), getHighestPriority(), deleteHighestPriority()
+
+Implementations:
+
+1.) Using Array: Following structure follows:
+
+struct item {
+   int item;
+   int priority;
+}
+
+Time Complexity:
+
+insert(key, priority): 		O(1)
+getHighestPriority(): 		O(N)
+deleteHighestPriority(): 	O(N)
+
+
+2.) Using Heap: Most prefered method
+
+Time Complexity:
+
+insert(key, priority): 		O(logN)
+getHighestPriority(): 		O(1)
+deleteHighestPriority(): 	O(logN)
+
+
+Applications of Priority Queue:
+
+1.) CPU scheduling algorithms implementation
+
+2.) Graph algorithms like Dijkstra’s shortest path algorithm, Prim’s Minimum Spanning Tree, etc
+
+3.) Huffman encoding for data compression
+
+4.) A* search algorithm: In AI this algorithm find the shortest path between two vertices of the weighted graph, trying out most promising route first.
