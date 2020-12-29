@@ -10,6 +10,12 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        if(l1 == null)
+            return l2;
+        
+        if(l2 == null)
+            return l1;
+        
         int carry = 0;
         ListNode head = null;
         ListNode prev = null;
@@ -37,14 +43,9 @@ class Solution {
             carry = sum/10;
             sum = sum%10;
             
-            if(head == null) {
-                head = new ListNode(sum);
-                prev = head;
-            } else {
-                ListNode node = new ListNode(sum);
-                prev.next = node;
-                prev = node;
-            }
+            ListNode node = new ListNode(sum);
+            prev.next = node;
+            prev = node;
             
             l1 = l1.next;
         }
@@ -54,27 +55,17 @@ class Solution {
             carry = sum/10;
             sum = sum%10;
             
-            if(head == null) {
-                head = new ListNode(sum);
-                prev = head;
-            } else {
-                ListNode node = new ListNode(sum);
-                prev.next = node;
-                prev = node;
-            }
+            ListNode node = new ListNode(sum);
+            prev.next = node;
+            prev = node;
             
             l2 = l2.next;
         }
         
         if(carry != 0) {
-            if(head == null) {
-                head = new ListNode(carry);
-                prev = head;
-            } else {
-                ListNode node = new ListNode(carry);
-                prev.next = node;
-                prev = node;
-            }
+            ListNode node = new ListNode(carry);
+            prev.next = node;
+            prev = node;
         }
         
         return head;
